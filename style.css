@@ -130,8 +130,16 @@ figure {
     float: left;
     display: inline-block;
     margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 figure {
     align: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
