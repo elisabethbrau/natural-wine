@@ -1,0 +1,201 @@
+body {
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif; font: weight 300px;
+    font-style: light italic;
+}
+
+.content-wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Breadbrumbs Menu */
+
+.breadcrumbs {
+    color: black;
+    font-style: italic;
+    display: inline-block;
+    width: 50%;
+    padding: 0;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    display: inline-flex;
+    justify-content:flex-start;
+}
+
+.breadcrumbs li {
+    display: inline-flex;
+    margin: 0;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.breadcrumbs li::after {
+    content: ">";
+    padding: 0 0.5em;
+}
+
+.breadcrumbs li:last-child::after {
+    content: " ";
+}
+
+.breadcrumbs a {
+    color: black;
+    text-underline-offset: 3px;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+    text-decoration-color: gray;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+    text-decoration-skip-ink: none;
+}
+
+/* main navigation menu */
+
+.main_nav {
+    width: 50%;
+    padding: 0;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-style: italic;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+}
+.main_nav li {
+    display: inline-flex;
+    margin: 0;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.main_nav a {
+text-decoration: none;
+color: black;
+}
+
+.main_nav a:hover {
+    text-decoration: underline;
+    text-decoration-color:gray;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 6px;
+}
+
+header {
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.intro {
+padding-top: 0%;
+padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Red Hat Display', sans-serif; font-weight: 300;
+     margin: 0;
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+}
+
+h2 {
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif; font: weight 300px;
+    font-style: normal;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    font-size: 16px;
+    width: 100%;
+    font-family: 'Red Hat Display', sans-serif; font: weight 300px;
+    font-style: italic;
+    margin-top: 0px ;
+}
+
+.byline {
+    font-family: 'Red Hat Display', sans-serif; font: weight 300px;
+    font-style: italic;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.author {
+    display: inline;
+}
+
+.author-title {
+    display: inline;
+}
+
+.byline .seperator {
+    display: inline;
+}
+
+section{
+    display: flex;
+    flex-wrap: flex;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+
+.text {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.La-Pharmacie-du-Vin .text {
+    margin-right: 40px;
+}
+
+.BarBrix .text {
+    margin-right: 40px;
+}
+
+.Silverlake-Wine .text {
+    margin-right: 40px;
+}
+
+.BarCovell .text {
+    margin-right: 40px;
+}
+
+.Tilda .text {
+    margin-right: 40px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
