@@ -81,6 +81,13 @@ header {
     width: 100%;
     float: left;
     margin-bottom: 30px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.intro {
+padding-top: 0%;
+padding-bottom: 1rem;
 }
 
 h1 {
@@ -140,6 +147,6 @@ figure {
 
 footer {
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
